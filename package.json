@@ -1,0 +1,30 @@
+{
+  "name": "test-runners-ava",
+  "version": "1.0.0",
+  "description": "test runners",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "test": "ava",
+    "build": "tsc"
+  },
+  "ava": {
+    "typescript": {
+      "rewritePaths": {
+        "src/": "dist/"
+      },
+      "compile": "tsc"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsimp": "^2.0.11",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@ava/typescript": "^4.1.0",
+    "ava": "^6.1.2",
+    "typescript": "^5.4.2"
+  }
+}
