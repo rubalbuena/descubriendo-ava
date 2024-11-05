@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@ava/typescript": "^4.1.0",
-    "ava": "^6.1.2",
-    "typescript": "^5.4.2"
+    "ava": "^6.2.0",
+    "typescript": "^5.6.3"
   }
 }
